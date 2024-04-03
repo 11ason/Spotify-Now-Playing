@@ -61,5 +61,4 @@ The site will display a white screen until music is being played. After authoriz
 
 
 ---
-Created with <3 by Mason
-Feel free to edit code, But please keep it free and open source.
+Created with <3 by Mason | Feel free to edit code, But please keep it free and open source.
