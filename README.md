@@ -55,6 +55,8 @@ Before using this application, ensure you have the following installed:
 
 The site will display a white screen until music is being played. After authorization, it will display the currently playing song information.
 
+Please note that the site uses javascript and ***Will Not Work*** in browsers that don't have javascript.
+
 ---
 
 <img width="1680" alt="Screenshot" src="https://github.com/11ason/Spotify-Now-Playing/assets/146950994/2d4e8cdc-a574-4f6f-802a-7081d92c56a4">
