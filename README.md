@@ -45,11 +45,20 @@ Before using this application, ensure you have the following installed:
      ngrok http --domain=your-domain-name 8080
      ```
 
-### Safety and Security
+### Issues and Security Risks
 
 - **Client Secrets**: Never expose your client secret in client-side code. Use environment variables or server-side code for secure handling.
 - **Reauthorization**: Users may need to reauthorize every hour due to Spotify's token expiration policy. This may never be resolved in the code (You can probably find a workaround)
-- **Vulnerabilities**: The code may contain vulnerabilities that could potentially compromise the security of your application. Review the code and address any security issues before deploying publicly.
+- **Vulnerabilities**: The code may contain vulnerabilities that could potentially compromise the security of your site. Review the code and address any security issues before deploying publicly.
+
+### Accessing the Application
+
+When running the site, accessing `localhost:8080` directly will not display anything. Instead, you need to follow a specific route to authorize the application and view the currently playing song.
+
+1. **Authorization Page**: To begin, navigate to `localhost:8080/auth` in your web browser. This page prompts you to authorize the site to access your Spotify account.
+
+2. **Main Page**: After authorizing the site, you will be redirected to `localhost:8080/main`, where you can see the currently playing song.
+
 
 ### Expected Behavior
 
