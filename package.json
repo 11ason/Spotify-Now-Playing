@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "express": "^4.19.2",
-    "fast-average-color-node": "^3.0.0",
-    "spotify-playback-sdk-node": "^1.0.2"
-  }
-}
