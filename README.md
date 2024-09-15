@@ -2,7 +2,7 @@
 Spotify-Now-Playing is a screensaver application that displays the currently playing song on your Spotify account. It utilizes the Spotify API to fetch the song information and display it in a visually appealing manner.
 
 ### Update
-You can now use this project on my site free of charge by clicking this [link](https://11ason.space/nowplaying/auth)
+You can now use this project on my site free of charge by clicking this [link](https://11ason.space/nowplaying/)
 
 ### Prerequisites
 
