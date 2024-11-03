@@ -27,9 +27,9 @@ Before using this application, ensure you have the following installed:
    - Create a new application and note down the client ID and client secret.
 
 4. **Configure Application**:
-   - Open `auth.html` file in the project directory.
-   - Replace `'Client_id'` with your actual Spotify client ID.
-   - Specify the correct redirect URI (`redirect_uri`) based on your setup.
+   - Open `index.html` file in the project directory.
+   - Replace the Client id with your Spotify client ID.
+   - Specify the correct redirect URI based on your setup.
 
 ### Running the Application
 
@@ -44,20 +44,11 @@ Before using this application, ensure you have the following installed:
      ```bash
      ngrok http --domain=your-domain-name 8080
      ```
-
-### Issues and Security Risks
-
-- **Client Secrets**: Never expose your client secret in client-side code. Use environment variables or server-side code for secure handling.
-- **Reauthorization**: ~Users may need to reauthorize every hour due to Spotify's token expiration policy. This may never be resolved in the code (You can probably find a workaround)~ **Should be solved in the newest release.**
-- **Vulnerabilities**: The code may contain vulnerabilities that could potentially compromise the security of your site. Review the code and address any security issues before deploying publicly.
-
+     
 ### Accessing the Application
+1. **Authorization Page**: To begin, navigate to `localhost:8080/` in your web browser. This page prompts you to authorize the site to access your Spotify account.
 
-When running the site, accessing `localhost:8080` directly will not display anything. Instead, you need to follow a specific route to authorize the application and view the currently playing song.
-
-1. **Authorization Page**: To begin, navigate to `localhost:8080/auth` in your web browser. This page prompts you to authorize the site to access your Spotify account.
-
-2. **Main Page**: After authorizing the site, you will be redirected to `localhost:8080/main`, where you can see the currently playing song.
+2. **App Page**: After authorizing the site, you will be redirected to `localhost:8080/app`, where you can see the currently playing song.
 
 
 ### Expected Behavior
