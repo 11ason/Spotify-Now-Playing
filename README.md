@@ -3,6 +3,7 @@ Spotify-Now-Playing is a screensaver application that displays the currently pla
 
 ### Update
 You can now use this project on my site free of charge by clicking this [link](https://11ason.space/nowplaying/)
+(assuming you are reading this after spotify has accepted my extension request)
 
 ### Prerequisites
 
