@@ -1,64 +1,101 @@
-# Spotify-Now-Playing
-Spotify-Now-Playing is a screensaver application that displays the currently playing song on your Spotify account. It utilizes the Spotify API to fetch the song information and display it in a visually appealing manner.
-### Prerequisites
+# Spotify Now Playing 🎶
 
-Before using this application, ensure you have the following installed:
+**Spotify Now Playing** is a sleek, self-hosted screensaver-style web app that displays your currently playing Spotify track in real-time. It fetches track details using the Spotify Web API and presents them with a clean UI, synced lyrics, and smooth visual transitions — perfect for use on a secondary monitor or projector display.
 
-- [Node.js](https://nodejs.org) - JavaScript runtime environment
-- [Express.js](https://expressjs.com/) - Web application framework for Node.js
-
-### Setup Instructions
-
-1. **Download Release**
-
-2. **Install Dependencies**: Navigate to the project directory and install dependencies using npm:
-   ```bash
-   npm install
-   ```
-
-3. **Create Spotify Application**:
-   - Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
-   - Log in or sign up for a Spotify Developer account.
-   - Create a new application and note down the client ID and client secret.
-
-4. **Configure Application**:
-   - Open `index.html` file in the project directory.
-   - Replace the Client id with your Spotify client ID.
-   - Specify the correct redirect URI based on your setup.
-
-### Running the Application
-
- **Local Network Deployment**: Start the server using the following command:
-  ```bash
-  node server.js
-  ```
-
-5. **Remote Access Deployment**:
-   - If you want to keep the site on your local network, no further action is required.
-   - If you want to make the site accessible from anywhere, use [ngrok](https://ngrok.com/):
-     ```bash
-     ngrok http --domain=your-domain-name 8080
-     ```
-     
-### Accessing the Application
-1. **Authorization Page**: To begin, navigate to `localhost:8080/` in your web browser. This page prompts you to authorize the site to access your Spotify account.
-
-2. **App Page**: After authorizing the site, you will be redirected to `localhost:8080/app`, where you can see the currently playing song.
+> ✨ Built to be lightweight, aesthetic, and self-hostable.
 
 
-### Expected Behavior
+## 🔧 Features
 
-The site will display a white screen until music is being played. After authorization, it will display the currently playing song information.
-
-Please note that the site uses javascript and ***Will Not Work*** in browsers that don't have javascript.
+- 🎵 Real-time display of track, artist, album cover
+- 🕘 Progress bar and timestamps
+- 📃 Synced lyrics (via [LRC Lib](https://lrclib.net))
+- 🎨 Smooth transitions and modern UI
+- 🖥️ Projector-friendly display mode
+- 💚 Built entirely with HTML/CSS/JavaScript — no frameworks
 
 ---
 
-<img width="1680" alt="Screenshot" src="https://github.com/11ason/Spotify-Now-Playing/assets/146950994/2d4e8cdc-a574-4f6f-802a-7081d92c56a4">
+## 📦 Prerequisites
 
-![media controls in use](https://github.com/11ason/Spotify-Now-Playing/assets/146950994/46cb9ac9-e97c-4813-ba60-862b79569f0a)
+Before getting started, make sure you have:
 
-![Transition-example](https://github.com/11ason/Spotify-Now-Playing/assets/146950994/d85ae2be-5e38-49f2-8554-04502fba2c6d)
+- [Node.js](https://nodejs.org/) – JavaScript runtime
+- [Express.js](https://expressjs.com/) – Web server (installed via setup)
+- [Spotify Developer Account](https://developer.spotify.com/dashboard)
 
 ---
-Created with <3 by Mason | Feel free to edit code, But please keep it free and open source.
+
+## 🚀 Setup Instructions
+
+### 1. Download the Release
+
+download the latest release locally into a folder (this will be the root folder for the server)
+
+### 2. Install Dependencies
+In your terminal, navigate to the project root and run:
+```bash
+npm install express
+```
+
+### 3. Create a Spotify Application
+- Go to the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
+- Create a new application.
+- Note your **Client ID** and **Client Secret**.
+- Add your **Redirect URIs** (e.g., `http://localhost:8080/app, http://localhost:8080/p, http://localhost:8080/`).
+
+### 4. Configure the App
+- Open `index.html`, `app.html`, and `p.html` in your code editor.
+- Replace the placeholder `client_id` and `redirect_uri` values with your own from the Spotify dashboard.
+
+---
+
+## 💻 Running the App
+
+### Run locally on your network:
+```bash
+node server.js
+```
+
+### (Optional) Expose to the web with ngrok:
+```bash
+ngrok http 8080
+```
+
+> Update your Spotify app's redirect URIs with your ngrok URL if using this method.
+
+---
+
+## 🌐 Accessing the App
+
+- **Start Page** → `http://localhost:8080/`  
+  Authorize your Spotify account.
+
+- **Main Display Page** → `http://localhost:8080/app`  
+  See your now playing info.
+
+- **Projector Mode (minimal view)** → `http://localhost:8080/p`  
+  Perfect for clean ambient screens or wall projections.
+
+---
+
+## ⚠️ Notes & Behavior
+
+- The screen may appear blank until music is playing.
+- If you stop playback, the app will continue displaying the last song until refreshed.
+- JavaScript must be enabled — this app will not work in JS-disabled browsers.
+
+---
+
+## 📸 Screenshots
+<img width="1000" alt="Projector Mode" src="https://github.com/user-attachments/assets/5e1d9b81-7d3f-42e6-aaa7-4b90a7747455" />
+<img width="1000" alt="Desktop Mode" src="https://github.com/user-attachments/assets/9aa75e63-9fbf-43d3-a9da-dbb18bd7489c" />
+<img width="1000" alt="Main Page" src="https://github.com/user-attachments/assets/19329627-676a-4ad0-8d5f-26a0c3f8fb3f" />
+
+---
+
+That’s it! You’re ready to run your Spotify Now Playing display.
+
+Built with <3 by **Mason**.  
+>Feel free to fork, modify, and expand — just keep it free, open, and accessible.  
+>If you use it or improve on it, I’d love to see what you come up with.
