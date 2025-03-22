@@ -1,4 +1,5 @@
-<img width="400" alt="Projector Mode" src="https://11ason.space/_astro/SpotifyNowPlayingBanner.DSa547dp_Z1I6pri.webp" />
+
+# SpotifyNowPlaying <img width="50" alt="logo" src="https://github.com/11ason/Spotify-Now-Playing/blob/main/SpotNowPlayingLogo.png?raw=true" />
 
 **SpotifyNowPlaying** is a sleek, self-hosted screensaver-style web app that displays your currently playing Spotify track in real-time. It fetches track details using the Spotify Web API and presents them with a clean UI, synced lyrics, and smooth visual transitions — perfect for use on a secondary monitor or projector display.
 
