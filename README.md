@@ -1,7 +1,9 @@
 
-# SpotifyNowPlaying <img width="50" alt="logo" src="https://github.com/11ason/Spotify-Now-Playing/blob/main/SpotNowPlayingLogo.png?raw=true" />
+# NowPlaying <img width="50" alt="logo" src="https://github.com/11ason/Spotify-Now-Playing/blob/main/SpotNowPlayingLogo.png?raw=true" />
 
-**SpotifyNowPlaying** is a sleek, self-hosted screensaver-style web app that displays your currently playing Spotify track in real-time. It fetches track details using the Spotify Web API and presents them with a clean UI, synced lyrics, and smooth visual transitions — perfect for use on a secondary monitor or projector display.
+## Public Release Now Avalible; NowPlaying is now avalible hassle free by going [**Here**](https://11ason.space/NowPlaying)
+
+**NowPlaying** is a sleek, self-hosted screensaver-style web app that displays your currently playing Spotify track in real-time. It fetches track details using the Spotify Web API and presents them with a clean UI, synced lyrics, and smooth visual transitions — perfect for use on a secondary monitor or projector display.
 
 > ✨ Built to be lightweight, aesthetic, and self-hostable.
 
@@ -95,8 +97,6 @@ ngrok http 8080
 
 ---
 
-That’s it! You’re ready to run your Spotify Now Playing display.
+That’s it! You’re ready to display your music in a whole new way. enjoy!
 
-Built with <3 by **Mason**.  
->Feel free to fork, modify, and expand — just keep it free, open, and accessible.  
->If you use it or improve on it, I’d love to see what you come up with.
+Built with <3 by **Mason**.
