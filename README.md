@@ -2,7 +2,7 @@
 # NowPlaying <img width="50" alt="logo" src="https://github.com/11ason/Spotify-Now-Playing/blob/main/SpotNowPlayingLogo.png?raw=true" />
 
 >[!TIP]
-> Get started <ins>hassle free</ins> in seconds by going [**Here**](https://11ason.space/NowPlaying)
+> Get started <ins>hassle free</ins> in seconds by going [**Here**](https://11ason.netlify.app/NowPlaying)
 
 ---
 
