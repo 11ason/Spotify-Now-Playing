@@ -94,9 +94,14 @@ ngrok http 8080
 ---
 
 ## 📸 Screenshots
-<img width="1000" alt="Projector Mode" src="https://github.com/user-attachments/assets/5e1d9b81-7d3f-42e6-aaa7-4b90a7747455" />
-<img width="1000" alt="Desktop Mode" src="https://github.com/user-attachments/assets/9aa75e63-9fbf-43d3-a9da-dbb18bd7489c" />
+Launch Page
 <img width="1000" alt="Main Page" src="https://github.com/user-attachments/assets/19329627-676a-4ad0-8d5f-26a0c3f8fb3f" />
+
+Projector Mode
+<img width="1000" alt="Projector Mode" src="https://github.com/user-attachments/assets/5e1d9b81-7d3f-42e6-aaa7-4b90a7747455" />
+
+Desktop Mode
+<img width="1000" alt="Desktop Mode" src="https://github.com/user-attachments/assets/9aa75e63-9fbf-43d3-a9da-dbb18bd7489c" />
 
 ---
 
